@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.12.1"
   s.source       = { :git => "https://github.com/iCell/EllipticCurveKeyPair.git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
-  s.swift_version = 5.0
+  s.swift_version = "5.0"
   s.frameworks  = ["Foundation", "LocalAuthentication", "Security"]
 end
